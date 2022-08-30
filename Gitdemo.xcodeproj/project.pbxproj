@@ -17,6 +17,7 @@
 		770B58FF28BE061F00DDA4F9 /* GitdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770B58FE28BE061F00DDA4F9 /* GitdemoTests.swift */; };
 		770B590928BE061F00DDA4F9 /* GitdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770B590828BE061F00DDA4F9 /* GitdemoUITests.swift */; };
 		770B590B28BE061F00DDA4F9 /* GitdemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770B590A28BE061F00DDA4F9 /* GitdemoUITestsLaunchTests.swift */; };
+		770B591A28BE1FF000DDA4F9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 770B591928BE1FF000DDA4F9 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		770B590428BE061F00DDA4F9 /* GitdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		770B590828BE061F00DDA4F9 /* GitdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitdemoUITests.swift; sourceTree = "<group>"; };
 		770B590A28BE061F00DDA4F9 /* GitdemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitdemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		770B591928BE1FF000DDA4F9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		770B58D928BE061A00DDA4F9 = {
 			isa = PBXGroup;
 			children = (
+				770B591928BE1FF000DDA4F9 /* .gitignore */,
 				770B58E428BE061A00DDA4F9 /* Gitdemo */,
 				770B58FD28BE061F00DDA4F9 /* GitdemoTests */,
 				770B590728BE061F00DDA4F9 /* GitdemoUITests */,
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				770B591A28BE1FF000DDA4F9 /* .gitignore in Resources */,
 				770B58F428BE061E00DDA4F9 /* LaunchScreen.storyboard in Resources */,
 				770B58F128BE061E00DDA4F9 /* Assets.xcassets in Resources */,
 				770B58EF28BE061A00DDA4F9 /* Main.storyboard in Resources */,
