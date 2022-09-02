@@ -22,6 +22,7 @@ class DocumentBrowserViewController: UIDocumentBrowserViewController, UIDocument
         allowsPickingMultipleItems = false
 
         print("Another print statement")
+        print("BugFix#1000 branch print")
         
         // Update the style of the UIDocumentBrowserViewController
         // browserUserInterfaceStyle = .dark
@@ -31,7 +32,9 @@ class DocumentBrowserViewController: UIDocumentBrowserViewController, UIDocument
         
         // Do any additional setup after loading the view.
     }
-    
+    func bugFixFunc() {
+        print("bugFix func")
+    }
     
     // MARK: UIDocumentBrowserViewControllerDelegate
     
